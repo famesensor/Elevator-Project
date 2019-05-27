@@ -38,6 +38,7 @@ public class About extends JFrame {
         label17 = new JLabel();
         label18 = new JLabel();
         label19 = new JLabel();
+        label20 = new JLabel();
 
         //======== this ========
         var contentPane = getContentPane();
@@ -112,51 +113,60 @@ public class About extends JFrame {
         label19.setText("Miss Panthira Laohawirunkun");
         label19.setFont(new Font("Segoe UI", Font.PLAIN, 18));
 
+        //---- label20 ----
+        label20.setText("Applied Computer Science, Faculty of Science, KMUTT");
+        label20.setFont(new Font("Segoe UI", Font.PLAIN, 20));
+
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(
             contentPaneLayout.createParallelGroup()
                 .addGroup(contentPaneLayout.createSequentialGroup()
-                    .addGap(49, 49, 49)
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addComponent(label12)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addGap(49, 49, 49)
                             .addGroup(contentPaneLayout.createParallelGroup()
-                                .addComponent(label2)
-                                .addComponent(label4))
-                            .addGap(145, 145, 145)
-                            .addComponent(label13)
-                            .addGap(18, 18, 18)
-                            .addGroup(contentPaneLayout.createParallelGroup()
-                                .addComponent(label16)
-                                .addComponent(label17)))
+                                .addGroup(contentPaneLayout.createSequentialGroup()
+                                    .addComponent(label12)
+                                    .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addGroup(contentPaneLayout.createParallelGroup()
+                                        .addComponent(label2)
+                                        .addComponent(label4))
+                                    .addGap(145, 145, 145)
+                                    .addComponent(label13)
+                                    .addGap(18, 18, 18)
+                                    .addGroup(contentPaneLayout.createParallelGroup()
+                                        .addComponent(label16)
+                                        .addComponent(label17)))
+                                .addGroup(contentPaneLayout.createSequentialGroup()
+                                    .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                        .addComponent(label1)
+                                        .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
+                                            .addGroup(contentPaneLayout.createSequentialGroup()
+                                                .addComponent(label10)
+                                                .addGap(26, 26, 26)
+                                                .addGroup(contentPaneLayout.createParallelGroup()
+                                                    .addComponent(label14)
+                                                    .addComponent(label15))
+                                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addComponent(label11))
+                                            .addGroup(contentPaneLayout.createSequentialGroup()
+                                                .addComponent(label8)
+                                                .addGap(18, 18, 18)
+                                                .addGroup(contentPaneLayout.createParallelGroup()
+                                                    .addComponent(label6)
+                                                    .addComponent(label7))
+                                                .addGap(113, 113, 113)
+                                                .addComponent(label9))))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(contentPaneLayout.createParallelGroup()
+                                        .addComponent(label3)
+                                        .addComponent(label5)
+                                        .addComponent(label19)
+                                        .addComponent(label18)))))
                         .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING)
-                                .addComponent(label1)
-                                .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(contentPaneLayout.createSequentialGroup()
-                                        .addComponent(label10)
-                                        .addGap(26, 26, 26)
-                                        .addGroup(contentPaneLayout.createParallelGroup()
-                                            .addComponent(label14)
-                                            .addComponent(label15))
-                                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(label11))
-                                    .addGroup(contentPaneLayout.createSequentialGroup()
-                                        .addComponent(label8)
-                                        .addGap(18, 18, 18)
-                                        .addGroup(contentPaneLayout.createParallelGroup()
-                                            .addComponent(label6)
-                                            .addComponent(label7))
-                                        .addGap(113, 113, 113)
-                                        .addComponent(label9))))
-                            .addGap(18, 18, 18)
-                            .addGroup(contentPaneLayout.createParallelGroup()
-                                .addComponent(label3)
-                                .addComponent(label5)
-                                .addComponent(label19)
-                                .addComponent(label18))))
+                            .addGap(217, 217, 217)
+                            .addComponent(label20)))
                     .addContainerGap(76, Short.MAX_VALUE))
         );
         contentPaneLayout.setVerticalGroup(
@@ -216,7 +226,9 @@ public class About extends JFrame {
                                     .addComponent(label16)
                                     .addGap(6, 6, 6)
                                     .addComponent(label17)))))
-                    .addContainerGap(72, Short.MAX_VALUE))
+                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
+                    .addComponent(label20)
+                    .addContainerGap())
         );
         pack();
         setLocationRelativeTo(getOwner());
@@ -244,5 +256,6 @@ public class About extends JFrame {
     private JLabel label17;
     private JLabel label18;
     private JLabel label19;
+    private JLabel label20;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

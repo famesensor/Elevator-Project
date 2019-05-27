@@ -4,8 +4,8 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-			"$horizontalGroup": "par l {seq {space :p:49:p, par l {seq l {comp label12:::p::p, space u:::p, par l {comp label2:::p::p, comp label4::l:p::p}, space :p:145:p, comp label13:::p::p, space s:::p, par l {comp label16:::p::p, comp label17:::p::p}}, seq l {par t {comp label1:::p::p, par l:::p {seq {comp label10:::p::p, space :p:26:p, par l {comp label14:::p::p, comp label15:::p::p}, space :::x, comp label11:::p::p}, seq {comp label8:::p::p, space s:::p, par l {comp label6::l:p::p, comp label7::l:p::p}, space :p:113:p, comp label9:::p::p}}}, space s:::p, par l {comp label3:::p::p, comp label5::l:p::p, comp label19:::p::p, comp label18:::p::p}}}, space ::76:x}}"
-			"$verticalGroup": "par l {seq {par t {seq {par l {seq {space :p:117:p, comp label8:::p::p}, seq {space :p:21:p, comp label1:::p::p, par l {seq l {space :p:74:p, comp label6:::p::p, space u:::p, comp label7:::p::p}, seq l {space :p:55:p, comp label9:::p::p}}}}, par l {seq {space :p:72:p, comp label10:::p::p}, seq t {space :::p, comp label3:::p::p, space :::p, comp label5:::p::p, space :p:23:p}, seq l {space :p:98:p, comp label14:::p::p, space :6:6:p, comp label15:::p::p}}}, seq {comp label19:::p::p, space :12:12:p, comp label18:::p::p, space :p:90:p, comp label11:::p::p}}, space :p:79:p, par l {comp label12:::p::p, comp label13:::p::p, seq {space :32:32:p, par l {seq {comp label2:::p::p, space :::p, comp label4:::p::p}, seq l {comp label16:::p::p, space :6:6:p, comp label17:::p::p}}}}, space ::72:x}}"
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:49:p, par l {seq l {comp label12:::p::p, space u:::p, par l {comp label2:::p::p, comp label4::l:p::p}, space :p:145:p, comp label13:::p::p, space s:::p, par l {comp label16:::p::p, comp label17:::p::p}}, seq l {par t {comp label1:::p::p, par l:::p {seq {comp label10:::p::p, space :p:26:p, par l {comp label14:::p::p, comp label15:::p::p}, space :::x, comp label11:::p::p}, seq {comp label8:::p::p, space s:::p, par l {comp label6::l:p::p, comp label7::l:p::p}, space :p:113:p, comp label9:::p::p}}}, space s:::p, par l {comp label3:::p::p, comp label5::l:p::p, comp label19:::p::p, comp label18:::p::p}}}}, seq l {space :p:217:p, comp label20:::p::p}}, space ::76:x}}"
+			"$verticalGroup": "par l {seq {par t {seq {par l {seq {space :p:117:p, comp label8:::p::p}, seq {space :p:21:p, comp label1:::p::p, par l {seq l {space :p:74:p, comp label6:::p::p, space u:::p, comp label7:::p::p}, seq l {space :p:55:p, comp label9:::p::p}}}}, par l {seq {space :p:72:p, comp label10:::p::p}, seq t {space :::p, comp label3:::p::p, space :::p, comp label5:::p::p, space :p:23:p}, seq l {space :p:98:p, comp label14:::p::p, space :6:6:p, comp label15:::p::p}}}, seq {comp label19:::p::p, space :12:12:p, comp label18:::p::p, space :p:90:p, comp label11:::p::p}}, space :p:79:p, par l {comp label12:::p::p, comp label13:::p::p, seq {space :32:32:p, par l {seq {comp label2:::p::p, space :::p, comp label4:::p::p}, seq l {comp label16:::p::p, space :6:6:p, comp label17:::p::p}}}}, space ::41:x, comp label20:::p::p, space :::p}}"
 		} ) {
 			name: "this"
 			add( new FormComponent( "javax.swing.JLabel" ) {
@@ -96,6 +96,11 @@ new FormModel {
 				name: "label19"
 				"text": "Miss Panthira Laohawirunkun"
 				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label20"
+				"text": "Applied Computer Science, Faculty of Science, KMUTT"
+				"font": new java.awt.Font( "Segoe UI", 0, 20 )
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 0, 65 )
