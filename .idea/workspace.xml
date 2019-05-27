@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac31466a-ecfc-4ac4-b6b8-c0bf11f20314" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/MigLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/miglayout-swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elevatorSimulator/About.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elevatorSimulator/About.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Elevator2/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Elevator2/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elevator2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Elevator2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elevatorSimulator/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elevatorSimulator/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +33,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-246">
+            <state relative-caret-position="544">
               <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="957">
+              <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
               <folding>
                 <element signature="e#910#911#0" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#5628#5629#0" expanded="true" />
+                <element signature="e#5673#5674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/Floor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding>
+                <element signature="e#3854#4031#0" expanded="true" />
+                <element signature="e#4030#4031#0" expanded="true" />
+                <marker date="1558963270523" expanded="false" signature="855:9461" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1558963270523" expanded="false" signature="9473:9995" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/About.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state paletteWidth="211" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/About.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="248" selection-start-line="248" selection-end-line="248" />
+              <folding>
+                <marker date="1558964426483" expanded="false" signature="333:10796" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
@@ -85,12 +148,15 @@
         <option value="$PROJECT_DIR$/src/newSim/Time.java" />
         <option value="$PROJECT_DIR$/src/elevatorSimulator/Simulator.java" />
         <option value="$PROJECT_DIR$/src/elevatorSimulator/Person.java" />
+        <option value="$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.jfd" />
+        <option value="$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.java" />
+        <option value="$PROJECT_DIR$/src/elevatorSimulator/About.jfd" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="233" />
+    <option name="y" value="219" />
     <option name="width" value="1130" />
     <option name="height" value="697" />
   </component>
@@ -163,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Simulator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="elevatorSimulator.Simulator" />
+    <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="newSim.Simulator" />
       <module name="Elevator2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elevatorSimulator.*" />
+          <option name="PATTERN" value="newSim.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +243,11 @@
       </method>
     </configuration>
     <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newSim.Simulator" />
+      <option name="MAIN_CLASS_NAME" value="elevatorSimulator.Simulator" />
       <module name="Elevator2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newSim.*" />
+          <option name="PATTERN" value="elevatorSimulator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,6 +298,7 @@
       <workItem from="1558939592661" duration="2251000" />
       <workItem from="1558944870430" duration="38000" />
       <workItem from="1558945366414" duration="1261000" />
+      <workItem from="1558962249388" duration="2339000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1556703361385</created>
@@ -335,13 +402,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68039000" />
+    <option name="totallyTimeSpent" value="70378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="23" width="1130" height="697" extended-state="0" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22123894" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,8 +416,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15081967" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15059589" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,114 +498,89 @@
     <entry file="file://$PROJECT_DIR$/src/Building.java" />
     <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorGUI.jfd" />
     <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConsole.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConfig.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="178" column="26" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
-          <folding>
-            <element signature="e#6079#6080#0" expanded="true" />
-            <element signature="e#6158#6159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/Elevator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3036">
-          <caret line="440" column="9" selection-start-line="440" selection-start-column="9" selection-end-line="440" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/Floor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/PoissonDis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/PersonState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newSim/Simulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConsole.jfd" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConfig.jfd" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/Building.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/Elevator.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/Time.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorController.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/ElevatorConsole.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/Floor.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/PoissonDis.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/PersonState.java" />
+    <entry file="file://$PROJECT_DIR$/src/newSim/Simulator.java" />
     <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
+        <state relative-caret-position="544">
           <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="957">
+          <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
           <folding>
             <element signature="e#910#911#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#5628#5629#0" expanded="true" />
+            <element signature="e#5673#5674#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/Floor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/ElevatorConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1558962242098" expanded="false" signature="695:15744" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1558962242098" expanded="false" signature="15756:16433" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/ElevatorConsole.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/ElevatorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#3854#4031#0" expanded="true" />
+            <element signature="e#4030#4031#0" expanded="true" />
+            <marker date="1558963270523" expanded="false" signature="855:9461" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1558963270523" expanded="false" signature="9473:9995" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+          <folding>
+            <marker date="1558964426483" expanded="false" signature="333:10796" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elevatorSimulator/About.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="211" />
       </provider>
     </entry>
   </component>

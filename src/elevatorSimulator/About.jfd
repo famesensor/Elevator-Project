@@ -1,0 +1,105 @@
+JFDML JFormDesigner: "7.0.0.0.194" Java: "1.8.0_202-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :p:49:p, par l {seq l {comp label12:::p::p, space u:::p, par l {comp label2:::p::p, comp label4::l:p::p}, space :p:145:p, comp label13:::p::p, space s:::p, par l {comp label16:::p::p, comp label17:::p::p}}, seq l {par t {comp label1:::p::p, par l:::p {seq {comp label10:::p::p, space :p:26:p, par l {comp label14:::p::p, comp label15:::p::p}, space :::x, comp label11:::p::p}, seq {comp label8:::p::p, space s:::p, par l {comp label6::l:p::p, comp label7::l:p::p}, space :p:113:p, comp label9:::p::p}}}, space s:::p, par l {comp label3:::p::p, comp label5::l:p::p, comp label19:::p::p, comp label18:::p::p}}}, space ::76:x}}"
+			"$verticalGroup": "par l {seq {par t {seq {par l {seq {space :p:117:p, comp label8:::p::p}, seq {space :p:21:p, comp label1:::p::p, par l {seq l {space :p:74:p, comp label6:::p::p, space u:::p, comp label7:::p::p}, seq l {space :p:55:p, comp label9:::p::p}}}}, par l {seq {space :p:72:p, comp label10:::p::p}, seq t {space :::p, comp label3:::p::p, space :::p, comp label5:::p::p, space :p:23:p}, seq l {space :p:98:p, comp label14:::p::p, space :6:6:p, comp label15:::p::p}}}, seq {comp label19:::p::p, space :12:12:p, comp label18:::p::p, space :p:90:p, comp label11:::p::p}}, space :p:79:p, par l {comp label12:::p::p, comp label13:::p::p, seq {space :32:32:p, par l {seq {comp label2:::p::p, space :::p, comp label4:::p::p}, seq l {comp label16:::p::p, space :6:6:p, comp label17:::p::p}}}}, space ::72:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Member in this project."
+				"font": new java.awt.Font( "Segoe UI", 0, 30 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Mr. Sitthinon Suea-wai"
+				"font": &Font0 new java.awt.Font( "Segoe UI", 0, 18 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Mr. Sathit Junthong"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "60090500428"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "60090500426"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Mr. Korrawich Khosripetch"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "60090500401"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/m1.jpg" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/m2.jpg" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label10"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/m3.jpg" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label11"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/m4.jpg" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label12"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/m5.jpg" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label13"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/m6.jpg" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label14"
+				"text": "Mr. Woottinan Yaemboo"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label15"
+				"text": "60090500422"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label16"
+				"text": "Mr. Suchakree Chanthayaphuet"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label17"
+				"text": "60090500430"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label18"
+				"text": "60090500415"
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label19"
+				"text": "Miss Panthira Laohawirunkun"
+				"font": #Font0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 65 )
+			"size": new java.awt.Dimension( 925, 675 )
+		} )
+	}
+}

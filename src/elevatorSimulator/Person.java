@@ -170,7 +170,7 @@ public class Person extends PoissonDis implements Runnable {
     }
 
     private void setWaitTime() {
-        activityTime = 1000 * ((int) (1 + ((Math.random() * 100) % 4)));
+        activityTime = 1000 * (int)((Math.random()*50)+1);
     }
 
     private void setWorkingTime() {
@@ -193,7 +193,6 @@ public class Person extends PoissonDis implements Runnable {
     private void enterElevator() {
         try {
             elevator.enterElevator(this);
-            //we don't get here unless we entered the elevator
             elevator.setDestination(destination);
             floor.stopWaiting(this);
             floor = null;

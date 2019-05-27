@@ -29,9 +29,14 @@ public class ElevatorConfig extends JFrame {
         // TODO add your code here
     }
 
+    private void aboutMouseClicked(MouseEvent e) {
+       About about = new About();
+       about.setVisible(true);
+    }
+
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Satit
+        // Generated using JFormDesigner Evaluation license - Sitthinon
         label1 = new JLabel();
         label2 = new JLabel();
         label3 = new JLabel();
@@ -41,11 +46,12 @@ public class ElevatorConfig extends JFrame {
         PersonNumber = new JSpinner();
         SubmitButton = new JButton();
         panel1 = new JPanel();
+        about = new JButton();
 
         //======== this ========
         setBackground(Color.white);
         setResizable(false);
-        Container contentPane = getContentPane();
+        var contentPane = getContentPane();
 
         //---- label1 ----
         label1.setText("Elevator Configurations");
@@ -101,6 +107,17 @@ public class ElevatorConfig extends JFrame {
                     java.awt.Color.red), panel1.getBorder())); panel1.addPropertyChangeListener(new java.beans.PropertyChangeListener(){public void propertyChange(java.beans.PropertyChangeEvent e){if("border".equals(e.getPropertyName()))throw new RuntimeException();}});
 
             panel1.setLayout(null);
+
+            //---- About ----
+            about.setText("About US");
+            about.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    aboutMouseClicked(e);
+                }
+            });
+            panel1.add(about);
+            about.setBounds(new Rectangle(new Point(235, 415), about.getPreferredSize()));
 
             { // compute preferred size
                 Dimension preferredSize = new Dimension();
@@ -187,7 +204,7 @@ public class ElevatorConfig extends JFrame {
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Satit
+    // Generated using JFormDesigner Evaluation license - Sitthinon
     private JLabel label1;
     private JLabel label2;
     private JLabel label3;
@@ -197,6 +214,7 @@ public class ElevatorConfig extends JFrame {
     private JSpinner PersonNumber;
     private JButton SubmitButton;
     private JPanel panel1;
+    private JButton about;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 
     protected int getElevatorNumber() {
