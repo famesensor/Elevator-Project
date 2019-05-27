@@ -1,0 +1,64 @@
+JFDML JFormDesigner: "6.0.6.4.204" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :76:76:p, comp label1:::p::p}, seq {space :41:41:p, comp ElevatorNumber:::p:91:p}, seq {space :81:81:p, comp SubmitButton:::p:179:p}, seq {space :41:41:p, comp label3:::p:158:p}, seq {space :41:41:p, comp label4:::p::p}, seq {space :41:41:p, comp PersonNumber:::p:91:p}, seq {space :41:41:p, comp FloorNumber:::p:91:p}, seq {space :41:41:p, comp label2:::p::p}}, space :54:52:x}, comp panel1::l::333:x}"
+			"$verticalGroup": "par l {seq {par l {seq {space :35:35:p, comp label1:::p::p}, seq {space :126:126:p, comp ElevatorNumber:::p::p}, seq {space :349:349:p, comp SubmitButton:::p:42:p}, seq {space :174:174:p, comp label3:::p::p}, seq {space :250:250:p, comp label4:::p::p}, seq {space :278:278:p, comp PersonNumber:::p::p}, seq {space :202:202:p, comp FloorNumber:::p::p}, seq {space :98:98:p, comp label2:::p::p}}, space ::62:x}, comp panel1::::453:x}"
+		} ) {
+			name: "this"
+			"background": sfield java.awt.Color white
+			"resizable": false
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Elevator Configurations"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Segoe UI", 0, 20 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Number of elevators"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Number of floors"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Maximum persons in elevator"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JSpinner" ) {
+				name: "ElevatorNumber"
+				"model": new javax.swing.SpinnerNumberModel( 3, 1, 10, 1 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JSpinner" ) {
+				name: "FloorNumber"
+				"model": new javax.swing.SpinnerNumberModel( 10, 5, 15, 1 )
+				"background": new java.awt.Color( 102, 102, 102, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JSpinner" ) {
+				name: "PersonNumber"
+				"model": new javax.swing.SpinnerNumberModel( 15, 5, 20, 1 )
+				"background": new java.awt.Color( 102, 102, 102, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "SubmitButton"
+				"text": "Submit"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "SubmitButtonMouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "SubmitButtonMousePressed", true ) )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 51, 51, 51, 255 )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 335, 485 )
+		} )
+	}
+}
